@@ -1,7 +1,7 @@
 import { GoogleGenAI, Tool } from "@google/genai";
 import { ArticleData, Language } from "../types";
 
-const apiKey = process.env.API_KEY || '';
+const apiKey = "AIzaSyAIqLHUatNYesEEk9np7U6kTtSWdeKqGiQ"
 
 const ai = new GoogleGenAI({ apiKey });
 
