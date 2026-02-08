@@ -3,7 +3,7 @@ import { ArticleData, Language } from "../types";
 
 const apiKey = "AIzaSyAIqLHUatNYesEEk9np7U6kTtSWdeKqGiQ"
 
-const ai = new GoogleGenAI({ apiKey });
+const ai = new GoogleGenAI(apiKey); 
 
 // Helper to find relevant images for the article from the web
 const findArticleImages = async (topic: string): Promise<string[]> => {
